@@ -17,7 +17,6 @@ async function nuevoCurso(nombre, nivelTecnico, fechaInicio, duracion) {
         return result.rows
     } catch (error) {
         return error
-
     }
 }
 
